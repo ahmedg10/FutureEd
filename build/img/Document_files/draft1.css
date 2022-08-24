@@ -1,0 +1,294 @@
+/* CSS for seach page */
+.university-icon {
+    height: 100px;
+    width: 100px;
+}
+
+/* search page search bar*/
+.title,
+.search-bar,
+.info-cards {
+    text-align: center;
+}
+
+.search-bar input {
+    width: 250px;
+    height: 40px;
+    border: 2px solid rgb(78, 111, 128);
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-indent: 10px;
+}
+
+.search-bar button {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgb(145, 145, 255);
+    vertical-align: middle;
+    color: white;
+    font-size: 18px;
+}
+
+/* college data section*/
+.info-cards h2 {
+    font-family: 'Ibarra Real Nova', serif;
+    text-shadow: 1px 1px #7b8196;
+    font-size: 18px;
+}
+
+.search-bar-section, .recommended-section {
+    margin-bottom: 60px;
+}
+
+.visual-data img {
+    width: 100%;
+}
+
+/* CSS for survey page */
+
+/* nav bar*/
+header.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+}
+
+li,
+a,
+button {
+    text-decoration: none;
+    font-family: 'Montserrant', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: rgb(64, 64, 64);
+
+}
+
+.logo {
+    width: 90px;
+    height: 20px;
+    margin-right: auto;
+}
+
+.navlist ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+nav li {
+    margin: 0px 7px;
+    display: inline-block;
+    padding: 15px, 10px;
+}
+
+/*survey form*/
+.form-body body {
+    font-size: 10px;
+    background-color: rgb(165, 165, 246);
+}
+
+.survey-form {
+    width: 75%;
+    padding: 30px 1em;
+    margin: 3em 6.5em;
+    border: 1px solid;
+    border-radius: 1em;
+    background: white;
+    z-index: 1;
+}
+
+.form-header p {
+    padding: 1rem;
+    font-size: .7em;
+}
+
+
+.second-card {
+    margin-top: .5rem;
+}
+
+button {
+    padding: px 10px;
+    font-size: 10px;
+    background-color: rgb(29, 161, 242);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-list ul li a {
+
+    transition: all 0.3s ease 0s;
+}
+
+.nav-list ul li a:hover {
+    color: rgb(29 161 242);
+}
+
+.form-header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.Survee-Location {
+    font-size: 12px;
+}
+
+.card-header p {
+    font-size: 15px;
+
+}
+
+/* footer */
+footer {
+    background-color: #ededed;
+    z-index: 1;
+    height: 300px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer .socials {
+    align-items: center;
+    text-align: center;
+    padding: 33.5px;
+}
+
+.socials img {
+    width: 35px;
+    height: 35px;
+}
+
+footer ul li a {
+    opacity: .7;
+    color: rgb(107, 107, 107);
+}
+
+footer ul {
+    list-style: none;
+    line-height: 2;
+    text-align: center;
+
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0px 16.5px;
+}
+
+footer ul li a:hover {
+    color: black;
+    opacity: 0.8;
+}
+
+.copyright {
+    color: #aaa;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 10px;
+}
+
+
+
+@media (min-width: 650px) {
+    /*search page css */
+    .search-bar input {
+        width: 400px;
+    }
+
+    .info-cards h2 {
+        font-size: 30px;
+    }
+
+    /**CSS for the Navbar **/
+    header.nav-list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: white;
+        box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+    }
+
+    li,
+    a,
+    button {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    nav {
+        padding: 5px 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        max-width: 100px;
+        max-height: 60px;
+    }
+
+    nav li {
+        margin: 0px 5px;
+    }
+
+    .nav-list ul li a {
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* form submission*/
+    button .submit {
+        margin-top: 1.5em;
+        align-items: center;
+    }
+
+    button:hover {
+        background-color: rgba(29, 161, 242, 0.75);
+    }
+
+    /**Creating the Survey Page**/
+    body {
+        font-size: 14px;
+    }
+
+    .border-design {
+        background-image: url(../img/background.jpg);
+        background-color: rgb(58, 58, .8);
+        background-size: cover;
+        background-repeat: none;
+        background-position: center;
+    }
+
+    /*survey form*/
+    .form-header p {
+        font-size: .8em;
+    }
+
+    div.form-border {
+        align-items: center;
+    }
+
+    div.card-header p {
+        margin: 0;
+        padding: 0;
+    }
+
+    button .submit {
+        margin: 1em;
+    }
+
+    .survey {
+        margin-top: auto;
+    }
+}

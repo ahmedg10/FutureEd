@@ -1,0 +1,267 @@
+{
+  "college": [
+    {
+      "id": "B000944",
+      "name": "University of Washington",
+      "state": "WA",
+      "score": "1",
+      "img": "./img/uw-icon.png",
+      "type": "Public",
+      "inStateTuition": 11745,
+      "outStateTuition": 39114,
+      "link": "https://www.washington.edu/"
+    },
+    {
+      "id": "C000127",
+      "name": "Penn State University",
+      "state": "PA",
+      "score": "9",
+      "img": "./img/psu-icon.jpeg",
+      "type": "Public",
+      "inStateTuition": 17900,
+      "outStateTuition": 32382,
+      "link": "https://www.psu.edu/"
+    },
+    {
+      "id": "W000802",
+      "name": "University of Arizona",
+      "state": "AZ",
+      "score": "4",
+      "img": "./img/asu-icon.png",
+      "type": "Public",
+      "inStateTuition": 11338,
+      "outStateTuition": 29428,
+      "link": "https://www.asu.edu/"
+    },
+    {
+      "id": "S000770",
+      "name": "University of Southern California",
+      "state": "CA",
+      "score": "5",
+      "img": "./img/usc-icon.png",
+      "type": "private",
+      "inStateTuition": 60275,
+      "outStateTuition": 60275,
+      "link": "https://www.usc.edu/"
+    },
+    {
+      "id": "F000062",
+      "name": "University of Chicago",
+      "state": "IL",
+      "score": "6",
+      "img": "./img/uchicago-icon.jpeg",
+      "type": "private",
+      "inStateTuition": 60552,
+      "outStateTuition": 60552,
+      "link": "https://www.uchicago.edu/"
+    },
+    {
+      "id": "K000367",
+      "name": "Boston University",
+      "state": "MA",
+      "score": "2",
+      "img": "./img/bu-icon.png",
+      "type": "private",
+      "inStateTuition": 58072,
+      "outStateTuition": 58072,
+      "link": "https://www.bu.edu/"
+    },
+    {
+      "id": "M000639",
+      "name": "Yale University",
+      "state": "CT",
+      "score": "10",
+      "img": "./img/yale-icon.svg",
+      "type": "private",
+      "inStateTuition": 57700,
+      "outStateTuition": 57700,
+      "link": "https://www.yale.edu/"
+    },
+    {
+      "id": "S000033",
+      "name": "New York University",
+      "state": "NY",
+      "score": "8",
+      "img": "./img/nyu-icon.png",
+      "type": "private",
+      "inStateTuition": 54880,
+      "outStateTuition": 54880,
+      "link": "https://www.nyu.edu/"
+    },
+    {
+      "id": "L43562",
+      "name": "University of California - Los Angeles",
+      "state": "CA",
+      "score": "3",
+      "img": "./img/UCLA.png",
+      "type": "Public",
+      "inStateTuition": 13249,
+      "outStateTuition": 43003,
+      "link": "https://www.ucla.edu/"
+    },
+    {
+      "id": "AB4523",
+      "name": "University of Wisconsin-Madison",
+      "state": "WI",
+      "score": "19",
+      "img": "./img/uw2.png",
+      "type": "Public",
+      "inStateTuition": 10742,
+      "outStateTuition": 38630,
+      "link": "https://www.wisc.edu//"
+    },
+    {
+      "id": "L45690",
+      "name": "University of Virgina",
+      "state": "VA",
+      "score": "7",
+      "img": "./img/UVA-Logo.png",
+      "type": "Public",
+      "inStateTuition": 19698,
+      "outStateTuition": 53666,
+      "link": "https://www.virginia.edu//"
+    },
+    {
+      "id": "R67534",
+      "name": "University of Florida",
+      "state": "FL",
+      "score": "11",
+      "img": "./img/ufl-logo.png",
+      "type": "Public",
+      "inStateTuition": 6380,
+      "outStateTuition": 28658,
+      "link": "https://www.ufl.edu//"
+    },
+    {
+      "id": "L9456FG",
+      "name": "Georgia Insitute of Technology",
+      "state": "GA",
+      "score": "12",
+      "img": "./img/GAT-logo.png",
+      "type": "Public",
+      "inStateTuition": 12682,
+      "outStateTuition": 33794,
+      "link": "https://www.gatech.edu/"
+    },
+    {
+      "id": "GL34560",
+      "name": "The Ohio State University",
+      "state": "OH",
+      "score": "13",
+      "img": "./img/ohio.png",
+      "type": "Public",
+      "inStateTuition": 11936,
+      "outStateTuition": 35019,
+      "link": "https://www.osu.edu/"
+    },
+    {
+      "id": "F63459",
+      "name": "University of Michigan - Ann Arbor",
+      "state": "MI",
+      "score": "14",
+      "img": "./img/UM-logo.png",
+      "type": "Public",
+      "inStateTuition": 16178,
+      "outStateTuition": 53232,
+      "link": "https://www.umich.edu//"
+    },
+    {
+      "id": "WM9984",
+      "name": "William & Mary",
+      "state": "VA",
+      "score": "15",
+      "img": "./img/William.jpeg",
+      "type": "Public",
+      "inStateTuition": 23812,
+      "outStateTuition": 46467,
+      "link": "https://www.wm.edu/"
+    },
+    {
+      "id": "RC45908",
+      "name": "University of Texas At Austin",
+      "state": "TX",
+      "score": "16",
+      "img": "./img/UTA.png",
+      "type": "Public",
+      "inStateTuition": 11448,
+      "outStateTuition": 40032,
+      "link": "https://www.utexas.edu/"
+    },
+    {
+      "id": "T54789",
+      "name": "Florida State University",
+      "state": "FL",
+      "score": "17",
+      "img": "./img/fsu.png",
+      "type": "Public",
+      "inStateTuition": 6517,
+      "outStateTuition": 21683,
+      "link": "https://www.fsu.edu.edu/"
+    },
+    {
+      "id": "RAW909",
+      "name": "University of Maryland, College Park",
+      "state": "MD",
+      "score": "18",
+      "img": "./img/University-of-Maryland-Logo.png",
+      "type": "Public",
+      "inStateTuition": 10954,
+      "outStateTuition": 38636,
+      "link": "https://www.umd.edu/"
+    }
+  ],
+  "options": [
+    {
+      "0": "West Coast",
+      "1": "East Coast",
+      "2": "Mid-West",
+      "3": "Mid-East",
+      "4": "Other"
+    },
+    {
+      "0": "Tech Industry",
+      "1": "Financial Industry",
+      "2": "Financial Industry",
+      "3": "Entertainment Inudstry",
+      "4": "Government Industry",
+      "5": "Other"
+    },
+    {
+      "0": "Urban",
+      "1": "College Town",
+      "2": "Suburbs",
+      "3": "Other"
+    },
+    {
+      "0": "5,000 Undergrads (Small)",
+      "1": "5000-15000 Undergrads (Medium)",
+      "2": ">15,000 Undergrads (Large)",
+      "3": "Other"
+    },
+    {
+      "0": "Don't qualify financial aid",
+      "1": "Only need some Financial support",
+      "2": "Want my school to support me as much as possible"
+    },
+    {
+      "0": "Not important",
+      "1": "Somewhat important",
+      "2": "Very Important"
+    },
+    {
+      "0": "Public",
+      "1": "Private"
+    }
+  ],
+  "questions": [
+    {
+      "0": "Where would you prefer your university to be located?",
+      "1": "What industry do you want your school to be surrounded by?",
+      "2": "What setting do you want your school to be in?",
+      "3": "What is your preferred college size?",
+      "4": "How important is it for you to have good Financial Aid options?",
+      "5": "Rate your importance in going to the most accredited college.",
+      "6": "What type of University do you prefer?"
+    }
+  ]
+}

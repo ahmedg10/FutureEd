@@ -1,0 +1,456 @@
+main {
+    font-family: verdana;
+}
+
+#links {
+    position: absolute;
+    width: 100%;
+    color: white;
+    background-color: #2c96bf;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    top: 0;
+    left: 0;
+}
+
+.main-logo {
+    position: relative;
+    top: 5px;
+}
+
+.survey {
+    padding: 5rem 0rem;
+}
+
+.form-select {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.description {
+    padding: 0.5rem;
+}
+
+.qs {
+    padding: 0.5rem;
+}
+
+.result_img {
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* CSS for seach page */
+.university-icon {
+    height: 100px;
+    width: 100px;
+}
+
+
+/* search page search bar*/
+.title,
+.search-bar,
+.info-cards {
+    text-align: center;
+}
+
+.recommended-section,
+.visual-data {
+    background-color: white;
+}
+
+.search-bar input {
+    width: 250px;
+    height: 40px;
+    border: 2px solid rgb(78, 111, 128);
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-indent: 10px;
+}
+
+.search-bar button {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgb(145, 145, 255);
+    vertical-align: middle;
+    color: white;
+    font-size: 18px;
+}
+
+
+.menu {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    flex: flex-end;
+    border: none;
+}
+
+
+.dropdown {
+    display: inline-block;
+}
+
+
+/* college data section*/
+.info-cards h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    text-shadow: 1px 1px #7b8196;
+    font-size: 30px;
+}
+
+
+.search-bar-section,
+.recommended-section {
+    margin-bottom: 60px;
+}
+
+.visual-data img {
+    width: 100%;
+}
+
+/* CSS for survey page */
+
+/* nav bar*/
+header.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+}
+
+li,
+a,
+button {
+    text-decoration: none;
+    font-family: 'Montserrant', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: rgb(64, 64, 64);
+
+}
+
+.logo {
+    width: 90px;
+    height: 20px;
+    margin-right: auto;
+}
+
+
+
+/*survey form*/
+.form-body body {
+    font-size: 16px;
+    background-color: rgb(165, 165, 246);
+}
+
+.survey-form {
+    width: 75%;
+    align-items: center;
+    padding: 30px 1em;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 1em;
+    background: white;
+    z-index: 1;
+}
+
+.form-header p {
+    padding: 1rem;
+    font-size: .7em;
+}
+
+
+.second-card {
+    margin-top: .5rem;
+    margin-bottom: 0.5rem
+}
+
+button {
+    padding: px 10px;
+    font-size: 10px;
+    background-color: rgb(29, 161, 242);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+
+.form-header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.Survee-Location {
+    font-size: 12px;
+}
+
+.card-header p {
+    font-size: 15px;
+}
+
+/* footer */
+footer {
+    background-color: #ededed;
+    z-index: 1;
+    height: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+}
+
+footer .socials {
+    align-items: center;
+    text-align: center;
+    padding: 33.5px;
+}
+
+.socials img {
+    width: 35px;
+    height: 35px;
+}
+
+footer ul li a {
+    opacity: .7;
+    color: rgb(107, 107, 107);
+}
+
+footer ul {
+
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0px 16.5px;
+}
+
+footer ul li a:hover {
+    color: black;
+    opacity: 0.8;
+}
+
+.copyright {
+    color: #aaa;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 10px;
+}
+
+
+p, th {
+    font: 14px;
+}
+
+.citeApi {
+    font-size: .8em;
+}
+
+.mobile-menu{
+    color: white;
+    padding: 16px;
+    flex: flex-end;
+    border: none;
+}
+
+.oversight-links{
+    display: none;
+}
+
+
+.dropdown-content {
+    display: none;
+    min-width: 140px;
+    list-style: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content li {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.mobile-menu:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    opacity: .5;
+}
+
+.dropdown:hover .dropbtn {
+    opacity: .6;
+}
+
+@media (min-width: 650px) {
+    .oversight-links{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px 20px
+    }
+
+    .mobile-menu, .dropdown{
+        display: none;
+
+    }
+
+
+    /*search page css */
+    .search-bar input {
+        width: 400px;
+    }
+
+    .info-cards h2 {
+        font-size: 30px;
+    }
+
+    .university-icon {
+        height: 100px;
+        width: 100px;
+    }
+
+    /**CSS for the Navbar **/
+    .nav-list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: white;
+        box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+    }
+
+    li,
+    a,
+    button {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .dropdown {
+        display: none;
+    }
+
+    .logo {
+        max-width: 100px;
+        max-height: 60px;
+    }
+
+    .navlist ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 0px 10px;
+        display: inline-block;
+    }
+
+    /* form submission*/
+    button .submit {
+        margin-top: 1.5em;
+        align-items: center;
+    }
+
+    button:hover {
+        background-color: rgba(29, 161, 242, 0.75);
+    }
+
+    /**Creating the Survey Page**/
+    body {
+        font-size: 14px;
+    }
+    /*survey form*/
+    .form-header p {
+        font-size: .8em;
+    }
+
+    div.form-border {
+        align-items: center;
+    }
+
+    div.card-header p {
+        margin: 0;
+        padding: 0;
+    }
+
+    button .submit {
+        margin: 1em;
+    }
+
+    .survey {
+        margin-top: auto;
+    }
+
+    nav ul li:hover {
+        color: rgb(29 161 242);
+    }
+
+    .intro {
+        color: #333333;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.5625;
+        margin-bottom: 15px;
+    }
+
+    .aboutPage {
+        margin-bottom: 300px;
+    }
+
+    .mobile-menu{
+        display:none;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 18px;
+    }
+
+    /*search page css */
+    .search-bar input {
+        width: 500px;
+    }
+
+    .info-cards h2 {
+        font-size: 40px;
+    }
+
+    .university-icon {
+        height: 150px;
+        width: 150px;
+    }
+
+}
